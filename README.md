@@ -1,3 +1,8 @@
+# README
+
+## Sequence Diagram
+
+```mermaid
 sequenceDiagram
     autonumber
     participant R as RC522 Reader
@@ -36,3 +41,4 @@ sequenceDiagram
     end
 
     M->>R: PICC_HaltA(), PCD_StopCrypto1()
+```
